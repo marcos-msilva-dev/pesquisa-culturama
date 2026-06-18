@@ -109,3 +109,21 @@ button[type="reset"]:hover{
     background-color: red;
     color: #FFFFFF;
 }
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mensagem_sucesso{
+    padding: 2em;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(92, 242, 120);
+    font-family: "Work Sans", sans-serif;
+    color: #000000;
+    box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+}
