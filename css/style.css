@@ -31,6 +31,7 @@ form{
     background-color: #FFFFFF;
     padding: 15px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 fieldset{
@@ -71,4 +72,40 @@ input[type="color"]{
 label{
     margin-bottom: 5px;
     display: inline-block;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid{
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid{
+    border-color: green;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+    color: #FFFFFF;
+}
+
+button[type="reset"]:hover{
+    background-color: red;
+    color: #FFFFFF;
 }
