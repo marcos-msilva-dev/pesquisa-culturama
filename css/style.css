@@ -74,6 +74,15 @@ label{
     display: inline-block;
 }
 
+input[type="tel"]{
+    margin-bottom: 0;
+}
+
+small{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 input:invalid,
 select:invalid,
 textarea:invalid{
